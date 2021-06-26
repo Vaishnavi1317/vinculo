@@ -1,24 +1,21 @@
 # vinculo
-<!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="/w3css/3/w3.css">
-<body>
-<!-- Navigation -->
-<nav class="w3-bar w3-pink">
-<a href="#home" class="w3-button w3-baritem">Home</a>
-<a href="#vinculo" class="w3-button w3-bar-item">Vinculo</a>
-  <a href="#signup" class="w3-button w3-bar-item">SignUp</a>
-  <a href="#tour" class="w3-button w3-bar-item">About Us</a>
-  <a href="#contact" class="w3-button w3-bar-item">Contact Us</a>
-</nav>
-<form class="login">
-  <input type="text" placeholder="Username"> </br>
-  <br></br>
-  <input type="password" placeholder="Password"></br>
-  <br></br>
-  <button>Login</button>
-</form>
-
-</body>
-</html>
-
+<!DOCTYPE html>   
+<html>   
+<head>  
+<title> Login Page </title>    
+</head>    
+<body>    
+    <center> <h1> vinculo </h1> </center>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  </br>
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  </br>
+            <button type="submit">Login</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>   
+        </div>   
+    </form>     
+</body>     
