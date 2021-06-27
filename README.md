@@ -2,7 +2,7 @@
 <!DOCTYPE html>   
 <html>   
 <head>  
-<title> Login Page </title>    
+ Login Page    
 </head>    
 <body>    
     <center> <h1> vinculo </h1> </center>   
